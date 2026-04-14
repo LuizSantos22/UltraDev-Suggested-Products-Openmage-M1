@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <UltraDev_SuggestedProducts>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Mage_Catalog/>
+                <Mage_Checkout/>
+            </depends>
+        </UltraDev_SuggestedProducts>
+    </modules>
+</config>
