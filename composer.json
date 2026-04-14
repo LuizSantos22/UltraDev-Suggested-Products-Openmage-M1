@@ -1,9 +1,26 @@
-"repositories": [
-    {
-        "type": "vcs",
-        "url": "https://github.com/LuizSantos22/ultradev-suggested-products"
+{
+    "name": "ultradev/suggested-products",
+    "description": "Auto-suggested related, upsell and cross-sell products for OpenMage LTS 20.16.x with category hierarchy fallback",
+    "type": "magento-module",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luiz Santos",
+            "email": "luiz@ultradev.com.br",
+            "homepage": "https://ultraeletronicos.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "extra": {
+        "map": [
+            ["app/code/community/UltraDev/SuggestedProducts", "app/code/community/UltraDev/SuggestedProducts"],
+            ["app/design/frontend/base/default/layout/ultradev_suggestedproducts.xml", "app/design/frontend/base/default/layout/ultradev_suggestedproducts.xml"],
+            ["app/etc/modules/UltraDev_SuggestedProducts.xml", "app/etc/modules/UltraDev_SuggestedProducts.xml"]
+        ]
     }
-],
-"require": {
-    "ultradev/suggested-products": "^1.0"
 }
