@@ -1,0 +1,9 @@
+"repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/LuizSantos22/ultradev-suggested-products"
+    }
+],
+"require": {
+    "ultradev/suggested-products": "^1.0"
+}
