@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!--
+    This file contains no overrides by default.
+    The module works via observer injection — no layout changes needed.
+    Add handles here if you need block-level overrides in the future.
+-->
+<layout version="0.1.0">
+</layout>
