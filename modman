@@ -1,0 +1,3 @@
+app/code/community/UltraDev/SuggestedProducts app/code/community/UltraDev/SuggestedProducts
+app/design/frontend/base/default/layout/ultradev_suggestedproducts.xml app/design/frontend/base/default/layout/ultradev_suggestedproducts.xml
+app/etc/modules/UltraDev_SuggestedProducts.xml app/etc/modules/UltraDev_SuggestedProducts.xml
